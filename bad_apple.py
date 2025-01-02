@@ -23,7 +23,7 @@ def display_frame(frame):
     print(frame)
 
 def main():
-    time.sleep(1)  # Delay of 5 seconds before playing the frames
+    time.sleep(1)  
     frames = fetch_bad_apple_frames()
     
     if not frames:
